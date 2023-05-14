@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MiniProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MiniProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniProject.Core.dll": {}
+        }
+      },
+      "MiniProject1.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MiniProject.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniProject1.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniProject1.DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../MiniProject.Core/MiniProject.Core.csproj",
+      "msbuildProject": "../MiniProject.Core/MiniProject.Core.csproj"
+    },
+    "MiniProject1.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../MiniProject1.DataAccess/MiniProject1.DataAccess.csproj",
+      "msbuildProject": "../MiniProject1.DataAccess/MiniProject1.DataAccess.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MiniProject1.DataAccess >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mcloveen/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/MiniProject.Business.csproj",
+      "projectName": "MiniProject.Business",
+      "projectPath": "/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/MiniProject.Business.csproj",
+      "packagesPath": "/Users/mcloveen/.nuget/packages/",
+      "outputPath": "/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mcloveen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/mcloveen/Projects/MiniProject1/MiniProject1.DataAccess/MiniProject1.DataAccess.csproj": {
+              "projectPath": "/Users/mcloveen/Projects/MiniProject1/MiniProject1.DataAccess/MiniProject1.DataAccess.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

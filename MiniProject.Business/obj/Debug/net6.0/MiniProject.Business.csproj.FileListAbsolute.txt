@@ -1,0 +1,17 @@
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject.Business.deps.json
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject.Business.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject.Business.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.csproj.AssemblyReference.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.AssemblyInfoInputs.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.AssemblyInfo.cs
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.csproj.CoreCompileInputs.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/refint/MiniProject.Business.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/ref/MiniProject.Business.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject.Core.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject1.DataAccess.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject1.DataAccess.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/bin/Debug/net6.0/MiniProject.Core.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Business/obj/Debug/net6.0/MiniProject.Business.csproj.CopyComplete

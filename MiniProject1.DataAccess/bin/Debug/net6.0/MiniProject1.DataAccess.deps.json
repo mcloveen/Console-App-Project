@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MiniProject1.DataAccess/1.0.0": {
+        "dependencies": {
+          "MiniProject.Core": "1.0.0"
+        },
+        "runtime": {
+          "MiniProject1.DataAccess.dll": {}
+        }
+      },
+      "MiniProject.Core/1.0.0": {
+        "runtime": {
+          "MiniProject.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniProject1.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniProject.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/bin/Debug/net6.0/MiniProject.Core.deps.json
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/bin/Debug/net6.0/MiniProject.Core.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/bin/Debug/net6.0/MiniProject.Core.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.csproj.AssemblyReference.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.AssemblyInfoInputs.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.AssemblyInfo.cs
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.csproj.CoreCompileInputs.cache
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/refint/MiniProject.Core.dll
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/MiniProject.Core.pdb
+/Users/mcloveen/Projects/MiniProject1/MiniProject.Core/obj/Debug/net6.0/ref/MiniProject.Core.dll
