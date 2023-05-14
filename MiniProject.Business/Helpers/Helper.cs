@@ -1,4 +1,5 @@
-﻿namespace MiniProject.Business.Helpers;
+﻿using MiniProject.Business.Helpers;
+namespace MiniProject.Business.Helpers;
 
 public static class Helper
 {
@@ -6,7 +7,9 @@ public static class Helper
 
     {
        {"AlreadyExceptions" , "This object already exists"},
-        {"SizeException", "Length  doesn't match" }
+        {"SizeException", "Length  doesn't match" },
+        {"NotValidWordException","Entered word is not valid. Use only letters" },
+        {"CapacityNotEnoughException" ,"Department is already full"}
     };
 }
 

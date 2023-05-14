@@ -1,4 +1,4 @@
-﻿namespace MiniProject.Business.Services.Exceptions;
+﻿namespace MiniProject.Business.Exceptions;
 
 public class SizeException:Exception
 {

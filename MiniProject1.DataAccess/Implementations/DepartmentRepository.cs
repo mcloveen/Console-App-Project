@@ -24,22 +24,22 @@ public class DepartmentRepository : IRepository<Department>
 
     public Department? Get(int id)
     {
-        return DbContext.Departments.Find(g => g.DepartmentId == id);
+        return DbContext.Departments.Find(depar => depar.DepartmentId == id);
     }
 
-    public List<Department> GetAll()
+    public List<Department> GetAll(int skip, int take)
     {
-        return DbContext.Departments;
+        return DbContext.Departments.GetRange(skip,take);
     }
 
     public List<Department> GetAllByName(string name)
     {
-        return DbContext.Departments.FindAll(g => g.Name == name);
+        return DbContext.Departments.FindAll(depar => depar.Name == name);
     }
 
     public Department? GetByName(string name)
     {
-        return DbContext.Departments.Find(g => g.Name == name);
+        return DbContext.Departments.Find(depar => depar.Name == name);
     }
 
 }

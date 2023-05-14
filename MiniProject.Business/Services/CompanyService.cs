@@ -1,10 +1,10 @@
 ﻿using MiniProject.Business.Helpers;
 using MiniProject.Business.Interfaces;
-using MiniProject.Business.Services.Exceptions;
+using MiniProject.Business.Exceptions;
 using MiniProject.Core.Entities;
 using MiniProject1.DataAccess.Implementations;
 
-namespace MiniProject.Business.Services;
+namespace MiniProject.Business;
 
 public class CompanyService : ICompanyservice
 {

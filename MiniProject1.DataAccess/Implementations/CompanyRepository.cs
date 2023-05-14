@@ -26,19 +26,19 @@ public class CompanyRepository : IRepository<Company>
         return DbContext.Company.Find(t => t.CompanyId == id);
     }
 
-    public List<Company> GetAll()
+    public List<Company> GetAll(int skip, int take)
     {
-        return DbContext.Company;
+        return DbContext.Company.GetRange(skip,take);
     }
 
     public List<Company> GetAllByName(string name)
     {
-        throw new NotImplementedException();
+        return DbContext.Company.FindAll(comp => comp.Name == name);
     }
 
     public Company? GetByName(string name)
     {
-        return DbContext.Company.Find(t => t.Name == name);
+        return DbContext.Company.Find(comp => comp.Name == name);
     }
 
 }
