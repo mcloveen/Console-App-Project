@@ -1,21 +1,33 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{A9483F40-EC13-4E9B-A37C-F716C7092681}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MiniProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniProject/Program.cs">
+    <Files>
+      <File FileName="MiniProject/Program.cs" Line="17" Column="11" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MiniProject1" expanded="True" selected="True">
+          <Node name="MiniProject1" expanded="True">
+            <Node name="MiniProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="MiniProject.Business" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="DTOs" expanded="True">
+                <Node name="EmployeeDto" expanded="True" />
+              </Node>
+              <Node name="Exceptions" expanded="True" />
               <Node name="Helpers" expanded="True" />
               <Node name="Interfaces" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Exceptions" expanded="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="MiniProject.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
             </Node>
             <Node name="MiniProject1.DataAccess" expanded="True">
               <Node name="Implementations" expanded="True" />
@@ -25,5 +37,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>

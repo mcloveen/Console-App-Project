@@ -14,13 +14,22 @@ public class Department: IEntity
 
     public int CompanyId { get; set; }
 
+    public int CurrentEmployeeCount { get; private set; }
+
     public Department (string name, int employeelimit)
     {
         Name = name;
         EmployeeLimit = employeelimit;
         DepartmentId = _id;
+        CurrentEmployeeCount = 0;
         _id++;
     }
+
+    public void AddEmployee(Employee employee) { }
+
+    public void UpdateDepartment(Employee employee) { }
+
+    public void GetDepartmentEmployees(Employee employee) { }
 
     public override string ToString()
     {

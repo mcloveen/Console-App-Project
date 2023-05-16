@@ -15,7 +15,7 @@ public class CompanyService : ICompanyservice
     }
 
 
-    public void Create(string name)
+    public void Create(string name, string surname)
     {
         var exist = companyRepository.GetByName(name);
         if (exist != null)
@@ -38,12 +38,17 @@ public class CompanyService : ICompanyservice
         throw new NotImplementedException();
     }
 
-    public List<Company> GetAll()
+    public List<Company> GetAll(int skip, int take)
+    {
+        return companyRepository.GetAll(skip, take);
+    }
+
+    public Company GetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public Company GetById(int id)
+    public void Create(string name)
     {
         throw new NotImplementedException();
     }

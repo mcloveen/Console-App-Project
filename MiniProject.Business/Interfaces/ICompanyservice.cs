@@ -8,6 +8,6 @@ public interface ICompanyservice
     void Delete(string name);
 
     Company GetById(int id);
-    List<Company> GetAll();
+    List<Company> GetAll(int skip, int take);
 }
 

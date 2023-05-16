@@ -16,7 +16,7 @@ public class DepartmentService : IDepartmentService
         departmentRepository = new DepartmentRepository();
     }
 
-    public void Create(string departmentName, string typeName, int employeeLimit)
+    public void Create(string departmentName, string companyName, int employeeLimit)
     {
         var name = departmentName.Trim();
         if (string.IsNullOrEmpty(name))
@@ -31,7 +31,7 @@ public class DepartmentService : IDepartmentService
         var companyname1 = companyRepository.GetByName(name);
         if (companyname1 == null)
         {
-            throw new NotFoundException($"{typeName} - doesn't exist");
+            throw new NotFoundException($"{companyName} - doesn't exist");
         }
 
         if (employeeLimit < 2)
